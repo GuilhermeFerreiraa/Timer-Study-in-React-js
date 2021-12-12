@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+# Timer-Study-in-React-js
+Its a timer developed in React JS, where you can set a timer for you reach a objective, in this case, a study. But you can change this, and put a timer for you finish any activities. Its very cool, and useful.
+>>>>>>> 6e24ec19419ce1cb92c3635c0206449888d9b232
