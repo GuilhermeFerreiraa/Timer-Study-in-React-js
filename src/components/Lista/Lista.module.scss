@@ -3,7 +3,6 @@
   height: 100%;
 
   h2 {
-    color: #000;
     font-size: 1.25rem;
     margin-bottom: 12px;
   }
@@ -17,9 +16,6 @@
   @media screen and (min-width:1280px) {
     
     h2{
-      text-transform: uppercase;
-      color:#000;
-      font-weight: bold;
       text-align: center;
       font-size: 2.25rem;
       margin-bottom: 24px;

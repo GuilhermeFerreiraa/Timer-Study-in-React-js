@@ -1,8 +1,8 @@
 import style from './Item.module.scss'
-import { iTarefa } from '../../../types/tarefa.js'
+import { ITarefa } from '../../../types/tarefa.js'
 
-interface Props extends iTarefa {
-  selecionaTarefa: (tarfaSelecionada: iTarefa) => void
+interface Props extends ITarefa {
+  selecionaTarefa: (tarfaSelecionada: ITarefa) => void
 }
 
 export default function Item({
@@ -15,8 +15,9 @@ export default function Item({
 }: Props) {
   return (
     <li
-      onClick={() =>
-        selecionaTarefa({
+    className={`${style.item} ${selecionado ? style.itemSelecionado : ''} ${completado ? style.itemCompletado: ''}`}
+      onClick={() => !completado && selecionaTarefa(
+        {
           tarefa,
           tempo,
           selecionado,
@@ -24,10 +25,11 @@ export default function Item({
           id
         })
       }
-      className={`${style.item} ${selecionado ? style.itemSelecionado : ''}`}
     >
       <h3>{tarefa}</h3>
-      <span>{tempo}</span>
+      <span>{tempo} 
+      {completado && <span className={style.concluido} aria-label="tarefa completada"></span>}
+      </span>
     </li>
   )
 }
