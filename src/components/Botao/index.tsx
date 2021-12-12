@@ -14,5 +14,4 @@ class Botao extends React.Component {
     )
   }
 }
-
 export default Botao;
