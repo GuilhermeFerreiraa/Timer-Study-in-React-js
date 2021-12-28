@@ -39,16 +39,24 @@
     }
   }
 
+  .Cronometro_titulo__21z-8{
+    font-size: 2rem;
+  }
+  @media screen and (min-width:360px) {
+    p{
+      font-size: 1.2rem !important;
+    }
+  }
+  
   @media screen and (min-width:1280px) {
     
+    p{
+      font-size: 2rem !important;
+    }
+
     .relogioWrapper{
       font-size: 15rem;
     }
-
-    p {
-      font-size: 2rem;
-    }
-
     button {
       grid-column-start: span 2;
       justify-self: center;

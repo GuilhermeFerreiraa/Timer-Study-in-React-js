@@ -33,21 +33,22 @@ function Formulario({ setTarefas }: Props) {
     <form className={style.novaTarefa} onSubmit={adicionarTarefa}>
       <div className={style.inputContainer}>
         <label htmlFor="tarefa">
-          Adicione um novo estudo
+          Insira um novo estudo
         </label>
         <input
+          autoComplete='off'
           type="text"
           name="tarefa"
           id="tarefa"
           value={tarefa}
           onChange={evento => setTarefa(evento.target.value)}
-          placeholder="O que você quer estudar"
+          placeholder="O que deseja estudar hoje?"
           required
         />
       </div>
       <div className={style.inputContainer}>
         <label htmlFor="tempo">
-          Tempo
+          Quanto tempo?
         </label>
         <input
           type="time"
@@ -56,7 +57,7 @@ function Formulario({ setTarefas }: Props) {
           value={tempo}
           onChange={evento => setTempo(evento.target.value)}
           id="tempo"
-          min="00:00:00"
+          min="00:00:05"
           max="01:30:00"
           required
         />
