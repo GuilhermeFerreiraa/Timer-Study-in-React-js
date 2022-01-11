@@ -1,51 +1,48 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+<p align="center">
+ 🚀 <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ 💻 <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ 🔖 <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ 🤔 <a href="#-como-usar">Como Usar?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ :memo: <a href="#memo-licença">Licença</a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="center">
+  <img alt="dev.finances" src="https://media.discordapp.net/attachments/784133268592132107/930570827659882536/thumbnail_-_timer_to_study.png?width=1246&height=676" width="100%">
+</p>
 
-In the project directory, you can run:
+## 🚀 Tecnologias
 
-### `npm start`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React JS
+- NodeJS
+- Pré processador SASS
+- Hooks como useEffect e useState
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 💻 Projeto
 
-### `npm test`
+Timer to Study 
+É um temporizador desenvolvido em React JS. Onde você pode definir um tempo para atingir um objetivo, neste caso, um estudo (poderia ser uma tarefa também). Mas você pode mudar isso e colocar um cronômetro para terminar qualquer atividade. É de fácil uso e muito útil. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔖 Layout
 
-### `npm run build`
+O layout desta aplicação pode ser acessado através do link https://timetostudy.netlify.app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🤔 Como Usar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 1º passo: Baixar o Arquivo que está nesse repositório com todo o código da aplicação;
+- 2º passo: Entrar na pasta onde o Arquivo foi baixado (através do CMD ou do GitBash ou algum outro Terminal);
+- 3º passo: Digite npm start para rodar a aplicação;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📚 Aprendizado
 
-### `npm run eject`
+Através dessa aplicação pude aprimorar e conhecer novos conceitos de programação Mobile usando React Native. Gostei de ter feito o projeto, me abriu uma visão sobre uma infinita possibilidade de criação de aplicações, de integrações e etc. Embora não seja a minha área onde eu desejo trabalhar, com certeza irei fazer ainda mais projetos para dispositivos mobiles. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :memo: Licença
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# Timer-Study-in-React-js
-Its a timer developed in React JS, where you can set a timer for you reach a objective, in this case, a study. But you can change this, and put a timer for you finish any activities. Its very cool, and useful.
->>>>>>> 6e24ec19419ce1cb92c3635c0206449888d9b232
+Desenvolvido por Guilherme Ferreira.
